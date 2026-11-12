@@ -1,0 +1,14 @@
+{
+  "seed": 20261112,
+  "objects_per_district": 8,
+  "districts": {
+    "Митино": {"score": 3, "rub_per_m2": 270000},
+    "Марьино": {"score": 2, "rub_per_m2": 285000},
+    "Чертаново Центральное": {"score": 3, "rub_per_m2": 305000},
+    "Сокольники": {"score": 5, "rub_per_m2": 375000},
+    "Хамовники": {"score": 4, "rub_per_m2": 555000}
+  },
+  "ahp_judgments": {"price_over_district": 3, "price_over_transport": 2, "transport_over_district": 2},
+  "mortgage": {"down_payment_pct": 20, "annual_rate_pct": 16, "years": 20},
+  "price_weight_factors": [0.8, 1.0, 1.2]
+}

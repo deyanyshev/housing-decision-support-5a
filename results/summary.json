@@ -1,0 +1,253 @@
+{
+  "data_origin": "учебные данные",
+  "seed": 20261112,
+  "object_count": 40,
+  "district_count": 5,
+  "criteria": [
+    "Цена",
+    "Район",
+    "Доступность метро"
+  ],
+  "ahp_matrix": [
+    [
+      1.0,
+      3.0,
+      2.0
+    ],
+    [
+      0.3333333333333333,
+      1.0,
+      0.5
+    ],
+    [
+      0.5,
+      2.0,
+      1.0
+    ]
+  ],
+  "ahp_weights": [
+    0.5396145502210747,
+    0.16342411856642802,
+    0.29696133121249735
+  ],
+  "lambda_max": 3.009202712714281,
+  "ci": 0.00460135635714054,
+  "ri": 0.58,
+  "cr": 0.007933373029552656,
+  "cr_limit": 0.1,
+  "mortgage": {
+    "down_payment_pct": 20,
+    "annual_rate_pct": 16,
+    "years": 20
+  },
+  "top": [
+    {
+      "object_id": "Ж19",
+      "price_rub": 11840000,
+      "district": "Чертаново Центральное",
+      "metro_walk_min": 8,
+      "area_m2": 34.1,
+      "data_origin": "учебные данные",
+      "rank": 1,
+      "district_score": 3,
+      "topsis_score": 0.8659595897329875,
+      "pareto_price_transport": true,
+      "loan_rub": 9472000.0,
+      "annuity_first_payment_rub": 131779.76,
+      "differentiated_first_payment_rub": 165760.0,
+      "annuity_overpayment_rub": 22155143.03,
+      "differentiated_overpayment_rub": 15218346.67,
+      "overpayment_difference_rub": 6936796.36
+    },
+    {
+      "object_id": "Ж29",
+      "price_rub": 13620000,
+      "district": "Сокольники",
+      "metro_walk_min": 8,
+      "area_m2": 34.2,
+      "data_origin": "учебные данные",
+      "rank": 2,
+      "district_score": 5,
+      "topsis_score": 0.8658346560833494,
+      "pareto_price_transport": false,
+      "loan_rub": 10896000.0,
+      "annuity_first_payment_rub": 151591.25,
+      "differentiated_first_payment_rub": 190680.0,
+      "annuity_overpayment_rub": 25485899.33,
+      "differentiated_overpayment_rub": 17506240.0,
+      "overpayment_difference_rub": 7979659.33
+    },
+    {
+      "object_id": "Ж06",
+      "price_rub": 10060000,
+      "district": "Митино",
+      "metro_walk_min": 13,
+      "area_m2": 33.3,
+      "data_origin": "учебные данные",
+      "rank": 3,
+      "district_score": 3,
+      "topsis_score": 0.8219543540991417,
+      "pareto_price_transport": true,
+      "loan_rub": 8048000.0,
+      "annuity_first_payment_rub": 111968.28,
+      "differentiated_first_payment_rub": 140840.0,
+      "annuity_overpayment_rub": 18824386.73,
+      "differentiated_overpayment_rub": 12930453.33,
+      "overpayment_difference_rub": 5893933.4
+    },
+    {
+      "object_id": "Ж20",
+      "price_rub": 15030000,
+      "district": "Чертаново Центральное",
+      "metro_walk_min": 7,
+      "area_m2": 46.0,
+      "data_origin": "учебные данные",
+      "rank": 4,
+      "district_score": 3,
+      "topsis_score": 0.8181114952820268,
+      "pareto_price_transport": true,
+      "loan_rub": 12024000.0,
+      "annuity_first_payment_rub": 167284.61,
+      "differentiated_first_payment_rub": 210420.0,
+      "annuity_overpayment_rub": 28124307.41,
+      "differentiated_overpayment_rub": 19318560.0,
+      "overpayment_difference_rub": 8805747.41
+    },
+    {
+      "object_id": "Ж27",
+      "price_rub": 14400000,
+      "district": "Сокольники",
+      "metro_walk_min": 11,
+      "area_m2": 33.6,
+      "data_origin": "учебные данные",
+      "rank": 5,
+      "district_score": 5,
+      "topsis_score": 0.8161487947600962,
+      "pareto_price_transport": false,
+      "loan_rub": 11520000.0,
+      "annuity_first_payment_rub": 160272.68,
+      "differentiated_first_payment_rub": 201600.0,
+      "annuity_overpayment_rub": 26945444.23,
+      "differentiated_overpayment_rub": 18508800.0,
+      "overpayment_difference_rub": 8436644.23
+    },
+    {
+      "object_id": "Ж15",
+      "price_rub": 13360000,
+      "district": "Марьино",
+      "metro_walk_min": 11,
+      "area_m2": 43.5,
+      "data_origin": "учебные данные",
+      "rank": 6,
+      "district_score": 2,
+      "topsis_score": 0.7907807173446432,
+      "pareto_price_transport": false,
+      "loan_rub": 10688000.0,
+      "annuity_first_payment_rub": 148697.43,
+      "differentiated_first_payment_rub": 187040.0,
+      "annuity_overpayment_rub": 24999384.37,
+      "differentiated_overpayment_rub": 17172053.33,
+      "overpayment_difference_rub": 7827331.04
+    },
+    {
+      "object_id": "Ж10",
+      "price_rub": 11070000,
+      "district": "Марьино",
+      "metro_walk_min": 16,
+      "area_m2": 41.5,
+      "data_origin": "учебные данные",
+      "rank": 7,
+      "district_score": 2,
+      "topsis_score": 0.7609785994023646,
+      "pareto_price_transport": false,
+      "loan_rub": 8856000.0,
+      "annuity_first_payment_rub": 123209.63,
+      "differentiated_first_payment_rub": 154980.0,
+      "annuity_overpayment_rub": 20714310.25,
+      "differentiated_overpayment_rub": 14228640.0,
+      "overpayment_difference_rub": 6485670.25
+    },
+    {
+      "object_id": "Ж07",
+      "price_rub": 16810000,
+      "district": "Митино",
+      "metro_walk_min": 11,
+      "area_m2": 58.4,
+      "data_origin": "учебные данные",
+      "rank": 8,
+      "district_score": 3,
+      "topsis_score": 0.7499987609724379,
+      "pareto_price_transport": false,
+      "loan_rub": 13448000.0,
+      "annuity_first_payment_rub": 187096.1,
+      "differentiated_first_payment_rub": 235340.0,
+      "annuity_overpayment_rub": 31455063.72,
+      "differentiated_overpayment_rub": 21606453.33,
+      "overpayment_difference_rub": 9848610.39
+    },
+    {
+      "object_id": "Ж12",
+      "price_rub": 11440000,
+      "district": "Марьино",
+      "metro_walk_min": 17,
+      "area_m2": 45.9,
+      "data_origin": "учебные данные",
+      "rank": 9,
+      "district_score": 2,
+      "topsis_score": 0.7466242508361655,
+      "pareto_price_transport": false,
+      "loan_rub": 9152000.0,
+      "annuity_first_payment_rub": 127327.74,
+      "differentiated_first_payment_rub": 160160.0,
+      "annuity_overpayment_rub": 21406658.47,
+      "differentiated_overpayment_rub": 14704213.33,
+      "overpayment_difference_rub": 6702445.14
+    },
+    {
+      "object_id": "Ж04",
+      "price_rub": 10680000,
+      "district": "Митино",
+      "metro_walk_min": 19,
+      "area_m2": 40.8,
+      "data_origin": "учебные данные",
+      "rank": 10,
+      "district_score": 3,
+      "topsis_score": 0.7423979614924026,
+      "pareto_price_transport": false,
+      "loan_rub": 8544000.0,
+      "annuity_first_payment_rub": 118868.91,
+      "differentiated_first_payment_rub": 149520.0,
+      "annuity_overpayment_rub": 19984537.8,
+      "differentiated_overpayment_rub": 13727360.0,
+      "overpayment_difference_rub": 6257177.8
+    }
+  ],
+  "pareto_ids": [
+    "Ж06",
+    "Ж14",
+    "Ж19",
+    "Ж20",
+    "Ж32",
+    "Ж34"
+  ],
+  "sensitivity": [
+    {
+      "factor": 0.8,
+      "price_weight": 0.48391741592450954,
+      "leader": "Ж29",
+      "spearman_rho": 0.9827392120075047
+    },
+    {
+      "factor": 1.0,
+      "price_weight": 0.5396145502210747,
+      "leader": "Ж19",
+      "spearman_rho": 1.0
+    },
+    {
+      "factor": 1.2,
+      "price_weight": 0.5844607548005735,
+      "leader": "Ж19",
+      "spearman_rho": 0.9894934333958726
+    }
+  ]
+}
